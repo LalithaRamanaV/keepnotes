@@ -19,7 +19,6 @@ const NavList = () => {
                             {list.icon}
                         </ListItemIcon>
                         <ListItemText primary={list.name} />
-                    
                 </ListItem>
             ))
         }

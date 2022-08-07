@@ -1,5 +1,6 @@
 
 import { Box } from '@mui/material';
+import Notes from './notes/Notes';
 
 //components
 import SwipeDrawer from './SwipeDrawer';
@@ -9,8 +10,8 @@ const Home = () => {
         <Box style={{ display: 'flex', width: '100%' }}>
            
                 <SwipeDrawer />
-                        
-                    {/* <Notes />
+                <Notes />     
+                    {/*
                    <Archives />
                   <DeleteNotes /> */}
                
